@@ -1,0 +1,84 @@
+.main-div {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* background-image: url(./css/img/few_clouds.jpg); */
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+.input {
+  margin: 0 auto;
+}
+.city {
+  height: 200px;
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details {
+  height: 100px;
+  /* background-color: rgb(70, 22, 22); */
+  display: flex;
+  justify-content: space-around;
+}
+.wind {
+  width: 33%;
+  height: 100%;
+  /* background-color: rgb(55, 160, 99); */
+}
+.humidity {
+  width: 33%;
+  height: 100%;
+  /* background-color: rgb(43, 58, 49); */
+}
+.desc {
+  width: 33%;
+  height: 100%;
+  /* background-color: rgb(113, 55, 160); */
+}
+.city b {
+  width: 25%;
+  /* margin: 0 auto; */
+  font-size: 56pt;
+}
+.fog {
+  background-image: url(./css/img/fog.jpg);
+  background-size: cover;
+}
+.scatteredClouds {
+  background-image: url(./css/img/scattered.jpg);
+  background-size: cover;
+}
+.rain {
+  background-image: url(./css/img/rainy.png);
+  background-size: cover;
+}
+.lightRain {
+  background-image: url(./css/img/light_rain.jpg);
+  background-size: cover;
+}
+.fewClouds {
+  background-image: url(./css/img/few_clouds.jpg);
+  background-size: cover;
+}
+.clear {
+  background-image: url(./css/img/clear.jpg);
+  background-size: cover;
+}
+.snow {
+  background-image: url(./css/img/snow.jpg);
+  background-size: cover;
+}
+.cloudy {
+  background-image: url(./css/img/cloudy.jpg);
+  background-size: cover;
+}
+.overcast-clouds{
+  background-image: url(./css/img/overcast\ clouds.jpg);
+  background-size: cover;
+}
+
